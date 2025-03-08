@@ -26,7 +26,7 @@ A straightforward Customer Relationship Management (CRM) system built with Djang
 
 ## Project Structure
 
-The repository is organized as follows:
+The repository is organized as follows:
 
 ```bash
 django-simple-crm/
@@ -50,13 +50,11 @@ django-simple-crm/
 └── manage.py
 ```
 
-
-
-- **dcrm/**: Contains the main project settings and configurations.
-- **website/**: Holds the core application logic, including models, views, and templates.
-- **.gitignore**: Specifies files and directories to be ignored by Git.
-- **create_mysqldb.py**: Script for setting up the MySQL database.
-- **manage.py**: Django's command-line utility for administrative tasks.
+- **dcrm/**: Contains the main project settings and configurations.
+- **website/**: Holds the core application logic, including models, views, and templates.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+- **create_mysqldb.py**: Script for setting up the MySQL database.
+- **manage.py**: Django's command-line utility for administrative tasks.
 
 ## Installation
 
@@ -68,8 +66,6 @@ To set up the project locally, follow these steps:
    git clone https://github.com/ModarYaghi/django-simple-crm.git
    cd django-simple-crm
    ```
-
-   
 
 2. **Create and activate a virtual environment**:
 
@@ -93,13 +89,11 @@ To set up the project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-   
-
 4. **Set up the database**:
 
-   - Ensure you have MySQL installed and running.
-   - Update the database configurations in `dcrm/settings.py` accordingly.
-   - Run the database migrations:
+   - Ensure you have MySQL installed and running.
+   - Update the database configurations in `dcrm/settings.py` accordingly.
+   - Run the database migrations:
 
      ```bash
      python manage.py migrate
@@ -111,32 +105,28 @@ To set up the project locally, follow these steps:
    python manage.py createsuperuser
    ```
 
-   
-
 6. **Start the development server**:
 
    ```bash
    python manage.py runserver
    ```
 
-   
-
    Access the application at `http://127.0.0.1:8000/`.
 
 ## Usage
 
-- **Access the Admin Panel**: Navigate to `http://127.0.0.1:8000/admin/` and log in with your superuser credentials to manage customers and other data.
+- **Access the Admin Panel**: Navigate to `http://127.0.0.1:8000/admin/` and log in with your superuser credentials to manage customers and other data.
 
 ## Contributing
 
 Contributions are welcome! To contribute:
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch-name`.
-3. Make your changes.
-4. Commit your changes: `git commit -m 'Add some feature'`.
-5. Push to the branch: `git push origin feature-branch-name`.
-6. Open a pull request.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch-name`.
+3. Make your changes.
+4. Commit your changes: `git commit -m 'Add some feature'`.
+5. Push to the branch: `git push origin feature-branch-name`.
+6. Open a pull request.
 
 Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
@@ -146,9 +136,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-- [Django Documentation](https://docs.djangoproject.com/)
-- [Bootstrap Documentation](https://getbootstrap.com/)
-
----
-
-Feel free to customize this template further to align with your project's specifics and personal preferences.
+- [Django Documentation](https://docs.djangoproject.com/)
+- [Bootstrap Documentation](https://getbootstrap.com/)
