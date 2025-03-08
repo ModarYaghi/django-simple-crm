@@ -1,7 +1,3 @@
-Certainly! Crafting an engaging and informative README is crucial for showcasing your Django Simple CRM project. Here's a comprehensive template tailored to your repository:
-
----
-
 # Django Simple CRM
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
